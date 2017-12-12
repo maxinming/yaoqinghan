@@ -65,7 +65,7 @@ body {
     padding: 0;
 }
 .swiper-slide.one{
-    background: url("img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg") no-repeat center center;
     position: relative;
     background-size: 100% 100%;
 }
@@ -91,7 +91,7 @@ body {
 }
 /*第二屏*/
 .swiper-slide.two{
-    background: url("img/img3.jpg") no-repeat;
+    background: url("../img/img3.jpg") no-repeat;
     background-size: 100% 100%;
 }
 .swiper-slide.two .top img{
@@ -126,7 +126,7 @@ body {
 }
 /*第三屏*/
 .swiper-slide.three{
-    background: url("img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 .swiper-slide.three .biaoti img{
@@ -197,7 +197,7 @@ body {
 }
 /*第四屏*/
 .swiper-slide.four{
-    background: url("img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 .swiper-slide.four img{
