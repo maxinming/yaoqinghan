@@ -111,8 +111,7 @@ body {
     left: 40%;
 }
 .swiper-slide.two .bottom .one{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 5vw;
    position: absolute;
     top: 20%;
     left: 10%;
@@ -120,8 +119,7 @@ body {
 .swiper-slide.two .bottom .two{
     width: 80%;
     text-align: left;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 5vw;
     text-indent: 2em;
     position: absolute;
     top: 30%;
@@ -140,8 +138,7 @@ body {
     left: 5%;
 }
 .swiper-slide.three .biaoti{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 5vw;
 }
 .swiper-slide.three .biaoti .mxm{
     z-index: 9;
@@ -212,8 +209,7 @@ body {
     left: 5%;
 }
 .swiper-slide.four .qw{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 5vw;
 }
 .swiper-slide.four .qw .app{
     z-index: 9;
@@ -266,20 +262,18 @@ body {
      position: relative;
  }
 .swiper-slide.five .brw{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Aharoni;
+    font-size: 10vw;
 }
 .swiper-slide.five .brw .b{
     position: absolute;
     color: #000;
-    left: 30%;
+    left: 25%;
     top:40%;
 }
 .swiper-slide.five .brw .r{
     position: absolute;
     color: #000;
-    left: 25%;
+    left: 15%;
     top:50%;
 }
  .swiper-slide.five img{
