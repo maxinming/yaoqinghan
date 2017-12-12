@@ -72,11 +72,10 @@ body {
     background-size: 100% 100%;
 }
 .swiper-slide.one .top p{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 5vw;
     position: absolute;
-    top: 6%;
-    left: 25%;
+    top: 8%;
+    left: 35%;
 }
 .swiper-slide.one .center img{
     width: 100%;
@@ -85,11 +84,10 @@ body {
     left: 1%;
 }
 .swiper-slide.one .bottom p{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 5vw;
     position: absolute;
-    bottom: 4%;
-    left: 15%;
+    bottom: 10%;
+    left: 23%;
 }
 /*第二屏*/
 .swiper-slide.two{
