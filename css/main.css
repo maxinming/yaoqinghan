@@ -53,11 +53,13 @@ body {
      right: 8px;
  }
  #music .musicsd{
-     animation: circle 1s infinite linear;
+     animation: circle 1s linear infinite;
  }
  @keyframes circle{
-     0%{transform: rotate(0deg)}
-     100%{transform: rotate(360deg)}
+      0%
+      {transform: rotate(0deg)}
+     100%
+     {transform: rotate(360deg)}
  }
 /*第一屏*/
 *{
@@ -65,7 +67,7 @@ body {
     padding: 0;
 }
 .swiper-slide.one{
-    background: url("../img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg");
     position: relative;
     background-size: 100% 100%;
 }
@@ -91,8 +93,9 @@ body {
 }
 /*第二屏*/
 .swiper-slide.two{
-    background: url("../img/img3.jpg") no-repeat;
+    background: url("../img/img3.jpg");
     background-size: 100% 100%;
+    position: relative;
 }
 .swiper-slide.two .top img{
     width: 90%;
@@ -126,8 +129,9 @@ body {
 }
 /*第三屏*/
 .swiper-slide.three{
-    background: url("../img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg");
     background-size: 100% 100%;
+    position: relative;
 }
 .swiper-slide.three .biaoti img{
     width: 90%;
@@ -197,8 +201,9 @@ body {
 }
 /*第四屏*/
 .swiper-slide.four{
-    background: url("../img/img3.jpg") no-repeat center center;
+    background: url("../img/img3.jpg");
     background-size: 100% 100%;
+    position: relative;
 }
 .swiper-slide.four img{
     width: 90%;
@@ -255,6 +260,11 @@ body {
     top:60%;
 }
 /*第五屏*/
+ .swiper-slide.five{
+     background: url("../img/img3.jpg");
+     background-size: 100% 100%;
+     position: relative;
+ }
 .swiper-slide.five .brw{
     font-size: 30px;
     font-weight: bold;
@@ -272,43 +282,11 @@ body {
     left: 25%;
     top:50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .swiper-slide.five img{
+     width: 90%;
+     position: absolute;
+     top: 8%;
+     left: 5%;
+ }
 /*第五屏*/
-.swiper-slide.five{
-    background: url("img/img3.jpg") no-repeat center center;
-    background-size: 100% 100%;
-}
-.swiper-slide.five img{
-    width: 90%;
-    position: absolute;
-    top: 8%;
-    left: 5%;
-}
+

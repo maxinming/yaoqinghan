@@ -24,7 +24,7 @@ var swiper = new Swiper('.swiper-container', {
 var music=document.getElementById("music");
 var musicsd=document.querySelectorAll(".musicsd")[0];
 var musicas=document.querySelectorAll(".musicas")[0];
-var audio=document.querySelectorAll("audio")[0];
+var audio=document.querySelector("audio");
 var as=1;
 music.onclick=function(){
     if(as==1){
@@ -32,9 +32,9 @@ music.onclick=function(){
         musicsd.style.animation="none";
         audio.pause();
         as=0;
-    }else{
-        musicsd.style.display="block";
-        musicas.style.animation="circle 1s infinite linear";
+    }else {
+        musicas.style.display="block";
+        musicsd.style.animation="circle 1s linear infinite";
         audio.play();
         as=1;
     }
